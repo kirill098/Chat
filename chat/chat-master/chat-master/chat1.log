@@ -1,0 +1,751 @@
+2017-06-12 10:45:08,031 INFO  [AWT-EventQueue-0] Client - Connection...
+2017-06-12 10:45:09,094 ERROR [AWT-EventQueue-0] Client - 
+org.kirill.Exeptions.ClientException: Client constructor: Socket error:
+	at org.kirill.app.Client.<init>(Client.java:49) ~[classes/:na]
+	at org.kirill.ClientGUI.ClientApp.doConnection(ClientApp.java:126) [classes/:na]
+	at org.kirill.ClientGUI.ClientApp.access$000(ClientApp.java:22) [classes/:na]
+	at org.kirill.ClientGUI.ClientApp$loginButtonListener.actionPerformed(ClientApp.java:100) [classes/:na]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022) [na:1.8.0_121]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348) [na:1.8.0_121]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402) [na:1.8.0_121]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259) [na:1.8.0_121]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252) [na:1.8.0_121]
+	at java.awt.Component.processMouseEvent(Component.java:6533) [na:1.8.0_121]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324) [na:1.8.0_121]
+	at java.awt.Component.processEvent(Component.java:6298) [na:1.8.0_121]
+	at java.awt.Container.processEvent(Container.java:2236) [na:1.8.0_121]
+	at java.awt.Component.dispatchEventImpl(Component.java:4889) [na:1.8.0_121]
+	at java.awt.Container.dispatchEventImpl(Container.java:2294) [na:1.8.0_121]
+	at java.awt.Component.dispatchEvent(Component.java:4711) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466) [na:1.8.0_121]
+	at java.awt.Container.dispatchEventImpl(Container.java:2280) [na:1.8.0_121]
+	at java.awt.Window.dispatchEventImpl(Window.java:2746) [na:1.8.0_121]
+	at java.awt.Component.dispatchEvent(Component.java:4711) [na:1.8.0_121]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [na:1.8.0_121]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [na:1.8.0_121]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [na:1.8.0_121]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [na:1.8.0_121]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90) [na:1.8.0_121]
+	at java.awt.EventQueue$4.run(EventQueue.java:731) [na:1.8.0_121]
+	at java.awt.EventQueue$4.run(EventQueue.java:729) [na:1.8.0_121]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [na:1.8.0_121]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [na:1.8.0_121]
+2017-06-12 10:45:38,571 ERROR [AWT-EventQueue-0] Server - {}
+java.lang.ClassNotFoundException: PrintMessageHandlerFactory
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_121]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_121]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331) ~[na:1.8.0_121]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_121]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_121]
+	at java.lang.Class.forName(Class.java:264) ~[na:1.8.0_121]
+	at org.kirill.app.Server.<init>(Server.java:37) ~[classes/:na]
+	at org.kirill.ServerGIU.ServerApp$ButtonActionConnect.actionPerformed(ServerApp.java:150) [classes/:na]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022) [na:1.8.0_121]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348) [na:1.8.0_121]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402) [na:1.8.0_121]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259) [na:1.8.0_121]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252) [na:1.8.0_121]
+	at java.awt.Component.processMouseEvent(Component.java:6533) [na:1.8.0_121]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324) [na:1.8.0_121]
+	at java.awt.Component.processEvent(Component.java:6298) [na:1.8.0_121]
+	at java.awt.Container.processEvent(Container.java:2236) [na:1.8.0_121]
+	at java.awt.Component.dispatchEventImpl(Component.java:4889) [na:1.8.0_121]
+	at java.awt.Container.dispatchEventImpl(Container.java:2294) [na:1.8.0_121]
+	at java.awt.Component.dispatchEvent(Component.java:4711) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466) [na:1.8.0_121]
+	at java.awt.Container.dispatchEventImpl(Container.java:2280) [na:1.8.0_121]
+	at java.awt.Window.dispatchEventImpl(Window.java:2746) [na:1.8.0_121]
+	at java.awt.Component.dispatchEvent(Component.java:4711) [na:1.8.0_121]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [na:1.8.0_121]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [na:1.8.0_121]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [na:1.8.0_121]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [na:1.8.0_121]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90) [na:1.8.0_121]
+	at java.awt.EventQueue$4.run(EventQueue.java:731) [na:1.8.0_121]
+	at java.awt.EventQueue$4.run(EventQueue.java:729) [na:1.8.0_121]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [na:1.8.0_121]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [na:1.8.0_121]
+2017-06-12 10:45:42,942 ERROR [AWT-EventQueue-0] Server - {}
+java.lang.ClassNotFoundException: PrintMessageHandlerFactory
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_121]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_121]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331) ~[na:1.8.0_121]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_121]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_121]
+	at java.lang.Class.forName(Class.java:264) ~[na:1.8.0_121]
+	at org.kirill.app.Server.<init>(Server.java:37) ~[classes/:na]
+	at org.kirill.ServerGIU.ServerApp$ButtonActionConnect.actionPerformed(ServerApp.java:150) [classes/:na]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022) [na:1.8.0_121]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348) [na:1.8.0_121]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402) [na:1.8.0_121]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259) [na:1.8.0_121]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252) [na:1.8.0_121]
+	at java.awt.Component.processMouseEvent(Component.java:6533) [na:1.8.0_121]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324) [na:1.8.0_121]
+	at java.awt.Component.processEvent(Component.java:6298) [na:1.8.0_121]
+	at java.awt.Container.processEvent(Container.java:2236) [na:1.8.0_121]
+	at java.awt.Component.dispatchEventImpl(Component.java:4889) [na:1.8.0_121]
+	at java.awt.Container.dispatchEventImpl(Container.java:2294) [na:1.8.0_121]
+	at java.awt.Component.dispatchEvent(Component.java:4711) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466) [na:1.8.0_121]
+	at java.awt.Container.dispatchEventImpl(Container.java:2280) [na:1.8.0_121]
+	at java.awt.Window.dispatchEventImpl(Window.java:2746) [na:1.8.0_121]
+	at java.awt.Component.dispatchEvent(Component.java:4711) [na:1.8.0_121]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [na:1.8.0_121]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [na:1.8.0_121]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [na:1.8.0_121]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [na:1.8.0_121]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90) [na:1.8.0_121]
+	at java.awt.EventQueue$4.run(EventQueue.java:731) [na:1.8.0_121]
+	at java.awt.EventQueue$4.run(EventQueue.java:729) [na:1.8.0_121]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [na:1.8.0_121]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [na:1.8.0_121]
+2017-06-12 10:45:49,020 ERROR [AWT-EventQueue-0] Server - {}
+java.lang.ClassNotFoundException: PrintMessageHandlerFactory
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_121]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_121]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331) ~[na:1.8.0_121]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_121]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_121]
+	at java.lang.Class.forName(Class.java:264) ~[na:1.8.0_121]
+	at org.kirill.app.Server.<init>(Server.java:37) ~[classes/:na]
+	at org.kirill.ServerGIU.ServerApp$ButtonActionConnect.actionPerformed(ServerApp.java:150) [classes/:na]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022) [na:1.8.0_121]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348) [na:1.8.0_121]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402) [na:1.8.0_121]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259) [na:1.8.0_121]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252) [na:1.8.0_121]
+	at java.awt.Component.processMouseEvent(Component.java:6533) [na:1.8.0_121]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324) [na:1.8.0_121]
+	at java.awt.Component.processEvent(Component.java:6298) [na:1.8.0_121]
+	at java.awt.Container.processEvent(Container.java:2236) [na:1.8.0_121]
+	at java.awt.Component.dispatchEventImpl(Component.java:4889) [na:1.8.0_121]
+	at java.awt.Container.dispatchEventImpl(Container.java:2294) [na:1.8.0_121]
+	at java.awt.Component.dispatchEvent(Component.java:4711) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466) [na:1.8.0_121]
+	at java.awt.Container.dispatchEventImpl(Container.java:2280) [na:1.8.0_121]
+	at java.awt.Window.dispatchEventImpl(Window.java:2746) [na:1.8.0_121]
+	at java.awt.Component.dispatchEvent(Component.java:4711) [na:1.8.0_121]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [na:1.8.0_121]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [na:1.8.0_121]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [na:1.8.0_121]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [na:1.8.0_121]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90) [na:1.8.0_121]
+	at java.awt.EventQueue$4.run(EventQueue.java:731) [na:1.8.0_121]
+	at java.awt.EventQueue$4.run(EventQueue.java:729) [na:1.8.0_121]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [na:1.8.0_121]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [na:1.8.0_121]
+2017-06-12 10:46:03,522 INFO  [AWT-EventQueue-0] Client - Connection...
+2017-06-12 10:46:04,607 ERROR [AWT-EventQueue-0] Client - 
+org.kirill.Exeptions.ClientException: Client constructor: Socket error:
+	at org.kirill.app.Client.<init>(Client.java:49) ~[classes/:na]
+	at org.kirill.ClientGUI.ClientApp.doConnection(ClientApp.java:126) [classes/:na]
+	at org.kirill.ClientGUI.ClientApp.access$000(ClientApp.java:22) [classes/:na]
+	at org.kirill.ClientGUI.ClientApp$loginButtonListener.actionPerformed(ClientApp.java:100) [classes/:na]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022) [na:1.8.0_121]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348) [na:1.8.0_121]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402) [na:1.8.0_121]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259) [na:1.8.0_121]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252) [na:1.8.0_121]
+	at java.awt.Component.processMouseEvent(Component.java:6533) [na:1.8.0_121]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324) [na:1.8.0_121]
+	at java.awt.Component.processEvent(Component.java:6298) [na:1.8.0_121]
+	at java.awt.Container.processEvent(Container.java:2236) [na:1.8.0_121]
+	at java.awt.Component.dispatchEventImpl(Component.java:4889) [na:1.8.0_121]
+	at java.awt.Container.dispatchEventImpl(Container.java:2294) [na:1.8.0_121]
+	at java.awt.Component.dispatchEvent(Component.java:4711) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466) [na:1.8.0_121]
+	at java.awt.Container.dispatchEventImpl(Container.java:2280) [na:1.8.0_121]
+	at java.awt.Window.dispatchEventImpl(Window.java:2746) [na:1.8.0_121]
+	at java.awt.Component.dispatchEvent(Component.java:4711) [na:1.8.0_121]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [na:1.8.0_121]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [na:1.8.0_121]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [na:1.8.0_121]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [na:1.8.0_121]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90) [na:1.8.0_121]
+	at java.awt.EventQueue$4.run(EventQueue.java:731) [na:1.8.0_121]
+	at java.awt.EventQueue$4.run(EventQueue.java:729) [na:1.8.0_121]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [na:1.8.0_121]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [na:1.8.0_121]
+2017-06-12 10:46:26,177 ERROR [AWT-EventQueue-0] Server - {}
+java.lang.ClassNotFoundException: PrintMessageHandlerFactory
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_121]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_121]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331) ~[na:1.8.0_121]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_121]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_121]
+	at java.lang.Class.forName(Class.java:264) ~[na:1.8.0_121]
+	at org.kirill.app.Server.<init>(Server.java:37) ~[classes/:na]
+	at org.kirill.ServerGIU.ServerApp$ButtonActionConnect.actionPerformed(ServerApp.java:150) [classes/:na]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022) [na:1.8.0_121]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348) [na:1.8.0_121]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402) [na:1.8.0_121]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259) [na:1.8.0_121]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252) [na:1.8.0_121]
+	at java.awt.Component.processMouseEvent(Component.java:6533) [na:1.8.0_121]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324) [na:1.8.0_121]
+	at java.awt.Component.processEvent(Component.java:6298) [na:1.8.0_121]
+	at java.awt.Container.processEvent(Container.java:2236) [na:1.8.0_121]
+	at java.awt.Component.dispatchEventImpl(Component.java:4889) [na:1.8.0_121]
+	at java.awt.Container.dispatchEventImpl(Container.java:2294) [na:1.8.0_121]
+	at java.awt.Component.dispatchEvent(Component.java:4711) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466) [na:1.8.0_121]
+	at java.awt.Container.dispatchEventImpl(Container.java:2280) [na:1.8.0_121]
+	at java.awt.Window.dispatchEventImpl(Window.java:2746) [na:1.8.0_121]
+	at java.awt.Component.dispatchEvent(Component.java:4711) [na:1.8.0_121]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [na:1.8.0_121]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [na:1.8.0_121]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [na:1.8.0_121]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [na:1.8.0_121]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90) [na:1.8.0_121]
+	at java.awt.EventQueue$4.run(EventQueue.java:731) [na:1.8.0_121]
+	at java.awt.EventQueue$4.run(EventQueue.java:729) [na:1.8.0_121]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [na:1.8.0_121]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [na:1.8.0_121]
+2017-06-12 10:47:41,089 INFO  [Host] host - Host is runned on the 4444 port
+2017-06-12 10:48:07,102 INFO  [AWT-EventQueue-0] Client - Connection...
+2017-06-12 10:48:07,149 INFO  [AWT-EventQueue-0] Client - ctrl msh is received: ok
+2017-06-12 10:48:07,149 INFO  [AWT-EventQueue-0] Client - Ctrl msg is right
+2017-06-12 10:48:07,149 INFO  [AWT-EventQueue-0] Client - Connected!
+2017-06-12 10:48:07,165 INFO  [Thread-4] Session - [username] is connected
+2017-06-12 10:48:24,811 INFO  [AWT-EventQueue-0] Client - Connection...
+2017-06-12 10:48:24,843 INFO  [AWT-EventQueue-0] Client - ctrl msh is received: ok
+2017-06-12 10:48:24,843 INFO  [AWT-EventQueue-0] Client - Ctrl msg is right
+2017-06-12 10:48:24,843 INFO  [AWT-EventQueue-0] Client - Connected!
+2017-06-12 10:48:24,843 INFO  [Thread-6] Session - [kirill] is connected
+2017-06-12 10:48:28,628 INFO  [Thread-6] Session - [frf]
+2017-06-12 10:48:37,800 INFO  [Thread-4] Session - [wrf]
+2017-06-12 11:07:20,959 ERROR [AWT-EventQueue-0] Server - {}
+java.lang.ClassNotFoundException: org.study.stasy.app.PrintMessageHandlerFactory
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_121]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_121]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331) ~[na:1.8.0_121]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_121]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_121]
+	at java.lang.Class.forName(Class.java:264) ~[na:1.8.0_121]
+	at org.study.kirill.app.Server.<init>(Server.java:34) ~[classes/:na]
+	at org.study.kirill.ServerGIU.ServerApp$ButtonActionConnect.actionPerformed(ServerApp.java:152) [classes/:na]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022) [na:1.8.0_121]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348) [na:1.8.0_121]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402) [na:1.8.0_121]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259) [na:1.8.0_121]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252) [na:1.8.0_121]
+	at java.awt.Component.processMouseEvent(Component.java:6533) [na:1.8.0_121]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324) [na:1.8.0_121]
+	at java.awt.Component.processEvent(Component.java:6298) [na:1.8.0_121]
+	at java.awt.Container.processEvent(Container.java:2236) [na:1.8.0_121]
+	at java.awt.Component.dispatchEventImpl(Component.java:4889) [na:1.8.0_121]
+	at java.awt.Container.dispatchEventImpl(Container.java:2294) [na:1.8.0_121]
+	at java.awt.Component.dispatchEvent(Component.java:4711) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466) [na:1.8.0_121]
+	at java.awt.Container.dispatchEventImpl(Container.java:2280) [na:1.8.0_121]
+	at java.awt.Window.dispatchEventImpl(Window.java:2746) [na:1.8.0_121]
+	at java.awt.Component.dispatchEvent(Component.java:4711) [na:1.8.0_121]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [na:1.8.0_121]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [na:1.8.0_121]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [na:1.8.0_121]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [na:1.8.0_121]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90) [na:1.8.0_121]
+	at java.awt.EventQueue$4.run(EventQueue.java:731) [na:1.8.0_121]
+	at java.awt.EventQueue$4.run(EventQueue.java:729) [na:1.8.0_121]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [na:1.8.0_121]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [na:1.8.0_121]
+2017-06-12 11:07:25,219 INFO  [Thread-4] Session - [@exit]
+2017-06-12 11:07:25,219 INFO  [Thread-4] UserList - user [username] is deleted from userList
+2017-06-12 11:07:26,938 INFO  [Thread-6] Session - [@exit]
+2017-06-12 11:07:26,938 INFO  [Thread-6] UserList - user [kirill] is deleted from userList
+2017-06-12 11:07:30,277 INFO  [AWT-EventQueue-0] Server - Shutting down
+2017-06-12 11:07:30,761 INFO  [AWT-EventQueue-0] Server - Shutting down
+2017-06-12 11:07:32,645 INFO  [AWT-EventQueue-0] Server - Shutting down
+2017-06-12 11:07:32,645 INFO  [AWT-EventQueue-0] host - host is stopped
+2017-06-12 11:07:32,645 INFO  [AWT-EventQueue-0] workerThread - WorkerThread is stopped
+2017-06-12 11:07:32,645 ERROR [Thread-4] workerThread - ошибка ожидания задач на выполнение
+2017-06-12 11:07:32,645 ERROR [Host] host -  Host run(): Socket error{}
+2017-06-12 11:07:32,645 ERROR [Thread-6] workerThread - ошибка ожидания задач на выполнение
+2017-06-12 11:07:32,645 INFO  [AWT-EventQueue-0] workerThread - WorkerThread is stopped
+2017-06-12 11:07:32,645 INFO  [AWT-EventQueue-0] threadPool - TreadPool is stopped
+2017-06-12 11:07:32,661 INFO  [AWT-EventQueue-0] dispatcher - dispatcher is stopped
+2017-06-12 11:07:32,661 ERROR [Dispatcher] channel - Ошибка ожидания
+2017-06-12 11:07:32,661 INFO  [AWT-EventQueue-0] Server - Good night!
+2017-06-12 11:07:32,661 INFO  [Thread-2] Server - Shutting down
+2017-06-12 11:07:32,661 INFO  [Thread-2] threadPool - TreadPool is stopped
+2017-06-12 11:07:32,661 ERROR [Thread-2] Server - error of shutting down
+2017-06-12 11:07:33,396 INFO  [AWT-EventQueue-0] Server - Shutting down
+2017-06-12 11:07:45,087 ERROR [AWT-EventQueue-0] Server - {}
+java.lang.ClassNotFoundException: org.study.stasy.app.PrintMessageHandlerFactory
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_121]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_121]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331) ~[na:1.8.0_121]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_121]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_121]
+	at java.lang.Class.forName(Class.java:264) ~[na:1.8.0_121]
+	at org.study.kirill.app.Server.<init>(Server.java:34) ~[classes/:na]
+	at org.study.kirill.ServerGIU.ServerApp$ButtonActionConnect.actionPerformed(ServerApp.java:152) [classes/:na]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022) [na:1.8.0_121]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348) [na:1.8.0_121]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402) [na:1.8.0_121]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259) [na:1.8.0_121]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252) [na:1.8.0_121]
+	at java.awt.Component.processMouseEvent(Component.java:6533) [na:1.8.0_121]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324) [na:1.8.0_121]
+	at java.awt.Component.processEvent(Component.java:6298) [na:1.8.0_121]
+	at java.awt.Container.processEvent(Container.java:2236) [na:1.8.0_121]
+	at java.awt.Component.dispatchEventImpl(Component.java:4889) [na:1.8.0_121]
+	at java.awt.Container.dispatchEventImpl(Container.java:2294) [na:1.8.0_121]
+	at java.awt.Component.dispatchEvent(Component.java:4711) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466) [na:1.8.0_121]
+	at java.awt.Container.dispatchEventImpl(Container.java:2280) [na:1.8.0_121]
+	at java.awt.Window.dispatchEventImpl(Window.java:2746) [na:1.8.0_121]
+	at java.awt.Component.dispatchEvent(Component.java:4711) [na:1.8.0_121]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [na:1.8.0_121]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [na:1.8.0_121]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [na:1.8.0_121]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [na:1.8.0_121]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90) [na:1.8.0_121]
+	at java.awt.EventQueue$4.run(EventQueue.java:731) [na:1.8.0_121]
+	at java.awt.EventQueue$4.run(EventQueue.java:729) [na:1.8.0_121]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [na:1.8.0_121]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [na:1.8.0_121]
+2017-06-12 11:07:52,963 ERROR [AWT-EventQueue-0] Server - {}
+java.lang.ClassNotFoundException: org.study.stasy.app.PrintMessageHandlerFactory
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_121]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_121]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331) ~[na:1.8.0_121]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_121]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_121]
+	at java.lang.Class.forName(Class.java:264) ~[na:1.8.0_121]
+	at org.study.kirill.app.Server.<init>(Server.java:34) ~[classes/:na]
+	at org.study.kirill.ServerGIU.ServerApp$ButtonActionConnect.actionPerformed(ServerApp.java:152) [classes/:na]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022) [na:1.8.0_121]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348) [na:1.8.0_121]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402) [na:1.8.0_121]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259) [na:1.8.0_121]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252) [na:1.8.0_121]
+	at java.awt.Component.processMouseEvent(Component.java:6533) [na:1.8.0_121]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324) [na:1.8.0_121]
+	at java.awt.Component.processEvent(Component.java:6298) [na:1.8.0_121]
+	at java.awt.Container.processEvent(Container.java:2236) [na:1.8.0_121]
+	at java.awt.Component.dispatchEventImpl(Component.java:4889) [na:1.8.0_121]
+	at java.awt.Container.dispatchEventImpl(Container.java:2294) [na:1.8.0_121]
+	at java.awt.Component.dispatchEvent(Component.java:4711) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466) [na:1.8.0_121]
+	at java.awt.Container.dispatchEventImpl(Container.java:2280) [na:1.8.0_121]
+	at java.awt.Window.dispatchEventImpl(Window.java:2746) [na:1.8.0_121]
+	at java.awt.Component.dispatchEvent(Component.java:4711) [na:1.8.0_121]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [na:1.8.0_121]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [na:1.8.0_121]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [na:1.8.0_121]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [na:1.8.0_121]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90) [na:1.8.0_121]
+	at java.awt.EventQueue$4.run(EventQueue.java:731) [na:1.8.0_121]
+	at java.awt.EventQueue$4.run(EventQueue.java:729) [na:1.8.0_121]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [na:1.8.0_121]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [na:1.8.0_121]
+2017-06-12 11:08:01,202 ERROR [AWT-EventQueue-0] Server - {}
+java.lang.ClassNotFoundException: org.study.stasy.app.PrintMessageHandlerFactory
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_121]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_121]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331) ~[na:1.8.0_121]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_121]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_121]
+	at java.lang.Class.forName(Class.java:264) ~[na:1.8.0_121]
+	at org.study.kirill.app.Server.<init>(Server.java:34) ~[classes/:na]
+	at org.study.kirill.ServerGIU.ServerApp$ButtonActionConnect.actionPerformed(ServerApp.java:152) [classes/:na]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022) [na:1.8.0_121]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348) [na:1.8.0_121]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402) [na:1.8.0_121]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259) [na:1.8.0_121]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252) [na:1.8.0_121]
+	at java.awt.Component.processMouseEvent(Component.java:6533) [na:1.8.0_121]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324) [na:1.8.0_121]
+	at java.awt.Component.processEvent(Component.java:6298) [na:1.8.0_121]
+	at java.awt.Container.processEvent(Container.java:2236) [na:1.8.0_121]
+	at java.awt.Component.dispatchEventImpl(Component.java:4889) [na:1.8.0_121]
+	at java.awt.Container.dispatchEventImpl(Container.java:2294) [na:1.8.0_121]
+	at java.awt.Component.dispatchEvent(Component.java:4711) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466) [na:1.8.0_121]
+	at java.awt.Container.dispatchEventImpl(Container.java:2280) [na:1.8.0_121]
+	at java.awt.Window.dispatchEventImpl(Window.java:2746) [na:1.8.0_121]
+	at java.awt.Component.dispatchEvent(Component.java:4711) [na:1.8.0_121]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [na:1.8.0_121]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [na:1.8.0_121]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [na:1.8.0_121]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [na:1.8.0_121]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90) [na:1.8.0_121]
+	at java.awt.EventQueue$4.run(EventQueue.java:731) [na:1.8.0_121]
+	at java.awt.EventQueue$4.run(EventQueue.java:729) [na:1.8.0_121]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [na:1.8.0_121]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [na:1.8.0_121]
+2017-06-12 11:08:06,844 ERROR [AWT-EventQueue-0] Server - {}
+java.lang.ClassNotFoundException: org.study.stasy.app.PrintMessageHandlerFactory
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_121]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_121]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331) ~[na:1.8.0_121]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_121]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_121]
+	at java.lang.Class.forName(Class.java:264) ~[na:1.8.0_121]
+	at org.study.kirill.app.Server.<init>(Server.java:34) ~[classes/:na]
+	at org.study.kirill.ServerGIU.ServerApp$ButtonActionConnect.actionPerformed(ServerApp.java:152) [classes/:na]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022) [na:1.8.0_121]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348) [na:1.8.0_121]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402) [na:1.8.0_121]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259) [na:1.8.0_121]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252) [na:1.8.0_121]
+	at java.awt.Component.processMouseEvent(Component.java:6533) [na:1.8.0_121]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324) [na:1.8.0_121]
+	at java.awt.Component.processEvent(Component.java:6298) [na:1.8.0_121]
+	at java.awt.Container.processEvent(Container.java:2236) [na:1.8.0_121]
+	at java.awt.Component.dispatchEventImpl(Component.java:4889) [na:1.8.0_121]
+	at java.awt.Container.dispatchEventImpl(Container.java:2294) [na:1.8.0_121]
+	at java.awt.Component.dispatchEvent(Component.java:4711) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466) [na:1.8.0_121]
+	at java.awt.Container.dispatchEventImpl(Container.java:2280) [na:1.8.0_121]
+	at java.awt.Window.dispatchEventImpl(Window.java:2746) [na:1.8.0_121]
+	at java.awt.Component.dispatchEvent(Component.java:4711) [na:1.8.0_121]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [na:1.8.0_121]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [na:1.8.0_121]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [na:1.8.0_121]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [na:1.8.0_121]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90) [na:1.8.0_121]
+	at java.awt.EventQueue$4.run(EventQueue.java:731) [na:1.8.0_121]
+	at java.awt.EventQueue$4.run(EventQueue.java:729) [na:1.8.0_121]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [na:1.8.0_121]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [na:1.8.0_121]
+2017-06-12 11:08:12,678 INFO  [AWT-EventQueue-0] Server - Shutting down
+2017-06-12 11:08:14,037 INFO  [AWT-EventQueue-0] Server - Shutting down
+2017-06-12 11:09:18,613 ERROR [AWT-EventQueue-0] Server - {}
+java.lang.ClassNotFoundException: org.study.stasy.app.PrintMessageHandlerFactory
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_121]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_121]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331) ~[na:1.8.0_121]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_121]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_121]
+	at java.lang.Class.forName(Class.java:264) ~[na:1.8.0_121]
+	at org.study.kirill.app.Server.<init>(Server.java:34) ~[classes/:na]
+	at org.study.kirill.ServerGIU.ServerApp$ButtonActionConnect.actionPerformed(ServerApp.java:152) [classes/:na]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022) [na:1.8.0_121]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348) [na:1.8.0_121]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402) [na:1.8.0_121]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259) [na:1.8.0_121]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252) [na:1.8.0_121]
+	at java.awt.Component.processMouseEvent(Component.java:6533) [na:1.8.0_121]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324) [na:1.8.0_121]
+	at java.awt.Component.processEvent(Component.java:6298) [na:1.8.0_121]
+	at java.awt.Container.processEvent(Container.java:2236) [na:1.8.0_121]
+	at java.awt.Component.dispatchEventImpl(Component.java:4889) [na:1.8.0_121]
+	at java.awt.Container.dispatchEventImpl(Container.java:2294) [na:1.8.0_121]
+	at java.awt.Component.dispatchEvent(Component.java:4711) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525) [na:1.8.0_121]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466) [na:1.8.0_121]
+	at java.awt.Container.dispatchEventImpl(Container.java:2280) [na:1.8.0_121]
+	at java.awt.Window.dispatchEventImpl(Window.java:2746) [na:1.8.0_121]
+	at java.awt.Component.dispatchEvent(Component.java:4711) [na:1.8.0_121]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [na:1.8.0_121]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [na:1.8.0_121]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [na:1.8.0_121]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [na:1.8.0_121]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90) [na:1.8.0_121]
+	at java.awt.EventQueue$4.run(EventQueue.java:731) [na:1.8.0_121]
+	at java.awt.EventQueue$4.run(EventQueue.java:729) [na:1.8.0_121]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [na:1.8.0_121]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [na:1.8.0_121]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [na:1.8.0_121]
+2017-06-12 11:09:19,724 INFO  [AWT-EventQueue-0] Server - Shutting down
+2017-06-12 11:09:21,162 INFO  [AWT-EventQueue-0] Server - Shutting down
+2017-06-12 11:09:21,974 INFO  [AWT-EventQueue-0] Server - Shutting down
+2017-06-12 11:09:22,552 INFO  [AWT-EventQueue-0] Server - Shutting down
+2017-06-12 11:12:03,808 INFO  [Host] host - Host is runned on the 4444 port
+2017-06-12 11:12:30,681 INFO  [AWT-EventQueue-0] Client - Connection...
+2017-06-12 11:12:30,728 INFO  [AWT-EventQueue-0] Client - ctrl msh is received: ok
+2017-06-12 11:12:30,728 INFO  [AWT-EventQueue-0] Client - Ctrl msg is right
+2017-06-12 11:12:30,728 INFO  [AWT-EventQueue-0] Client - Connected!
+2017-06-12 11:12:30,743 INFO  [Thread-4] Session - [kirill] is connected
+2017-06-12 11:12:37,386 INFO  [Thread-4] Session - [привет]
+2017-06-12 11:12:49,645 INFO  [AWT-EventQueue-0] Client - Connection...
+2017-06-12 11:12:49,676 INFO  [AWT-EventQueue-0] Client - ctrl msh is received: ok
+2017-06-12 11:12:49,676 INFO  [AWT-EventQueue-0] Client - Ctrl msg is right
+2017-06-12 11:12:49,676 INFO  [AWT-EventQueue-0] Client - Connected!
+2017-06-12 11:12:49,691 INFO  [Thread-6] Session - [username] is connected
+2017-06-12 11:12:54,300 INFO  [Thread-6] Session - [привет]
+2017-06-12 11:13:02,106 INFO  [Thread-6] Session - [как дела]
+2017-06-12 11:13:05,828 INFO  [Thread-4] Session - [нормально]
+2017-06-12 11:39:21,459 INFO  [Thread-6] Session - [@exit]
+2017-06-12 11:39:21,474 INFO  [Thread-6] UserList - user [username] is deleted from userList
+2017-06-12 11:39:24,163 INFO  [Thread-4] Session - [@exit]
+2017-06-12 11:39:24,163 INFO  [Thread-4] UserList - user [kirill] is deleted from userList
+2017-06-18 16:49:29,261 INFO  [Host] host - Host is runned on the 4444 port
+2017-06-18 16:49:50,347 INFO  [AWT-EventQueue-0] Client - Connection...
+2017-06-18 16:49:50,478 INFO  [AWT-EventQueue-0] Client - ctrl msh is received: ok
+2017-06-18 16:49:50,478 INFO  [AWT-EventQueue-0] Client - Ctrl msg is right
+2017-06-18 16:49:50,478 INFO  [AWT-EventQueue-0] Client - Connected!
+2017-06-18 16:49:50,478 INFO  [Thread-4] Session - [kirill] is connected
+2017-06-18 16:50:23,037 INFO  [AWT-EventQueue-0] Client - Connection...
+2017-06-18 16:50:23,068 INFO  [AWT-EventQueue-0] Client - ctrl msh is received: ok
+2017-06-18 16:50:23,068 INFO  [AWT-EventQueue-0] Client - Ctrl msg is right
+2017-06-18 16:50:23,068 INFO  [AWT-EventQueue-0] Client - Connected!
+2017-06-18 16:50:23,068 INFO  [Thread-6] Session - [vladimir] is connected
+2017-06-18 16:50:30,955 INFO  [Thread-4] Session - [привет]
+2017-06-18 16:50:37,886 INFO  [Thread-6] Session - [привет, как дела]
+2017-06-18 16:50:45,027 INFO  [Thread-4] Session - [да нормально, а твои]
+2017-06-18 16:50:51,290 INFO  [Thread-6] Session - [потихоньку]
+2017-06-20 10:37:14,442 INFO  [Thread-6] Session - [exit]
+2017-06-20 10:37:17,819 INFO  [Thread-6] Session - [@exit]
+2017-06-20 10:37:17,819 INFO  [Thread-6] UserList - user [vladimir] is deleted from userList
+2017-06-20 10:37:17,882 ERROR [Thread-2] Client - Server is unconnected
+2017-06-20 10:37:17,959 ERROR [Thread-2] Client - user can't send exit-msg
+2017-06-20 10:37:17,975 ERROR [Thread-2] Client - user can't send exit-msg
+2017-06-20 10:37:25,689 INFO  [Thread-4] Session - ["учше]
+2017-06-20 10:37:28,581 INFO  [Thread-4] Session - [@exit]
+2017-06-20 10:37:28,581 INFO  [Thread-4] UserList - user [kirill] is deleted from userList
+2017-06-20 10:37:28,581 ERROR [Thread-2] Client - Server is unconnected
+2017-06-20 10:37:28,581 ERROR [Thread-2] Client - user can't send exit-msg
+2017-06-20 10:37:28,581 ERROR [Thread-2] Client - user can't send exit-msg
+2017-06-20 10:37:34,888 INFO  [AWT-EventQueue-0] Server - Shutting down
+2017-06-20 10:37:34,903 INFO  [AWT-EventQueue-0] host - host is stopped
+2017-06-20 10:37:34,903 ERROR [Host] host -  Host run(): Socket error{}
+2017-06-20 10:37:34,903 INFO  [AWT-EventQueue-0] workerThread - WorkerThread is stopped
+2017-06-20 10:37:34,903 ERROR [Thread-4] workerThread - ошибка ожидания задач на выполнение
+2017-06-20 10:37:34,903 INFO  [AWT-EventQueue-0] workerThread - WorkerThread is stopped
+2017-06-20 10:37:34,903 ERROR [Thread-6] workerThread - ошибка ожидания задач на выполнение
+2017-06-20 10:37:34,903 INFO  [AWT-EventQueue-0] threadPool - TreadPool is stopped
+2017-06-20 10:37:34,903 INFO  [AWT-EventQueue-0] dispatcher - dispatcher is stopped
+2017-06-20 10:37:34,903 INFO  [AWT-EventQueue-0] Server - Good night!
+2017-06-20 10:37:34,903 ERROR [Dispatcher] channel - Ошибка ожидания
+2017-06-20 10:37:35,608 INFO  [AWT-EventQueue-0] Server - Shutting down
+2017-06-20 10:37:35,608 INFO  [AWT-EventQueue-0] threadPool - TreadPool is stopped
+2017-06-20 10:37:35,608 ERROR [AWT-EventQueue-0] Server - error of shutting down
+2017-06-20 10:37:35,608 INFO  [Thread-2] Server - Shutting down
+2017-06-20 10:37:35,608 INFO  [Thread-2] threadPool - TreadPool is stopped
+2017-06-20 10:37:35,608 ERROR [Thread-2] Server - error of shutting down
+2017-06-20 10:42:30,125 INFO  [Host] host - Host is runned on the 4444 port
+2017-06-20 10:42:51,315 INFO  [AWT-EventQueue-0] Client - Connection...
+2017-06-20 10:42:51,564 INFO  [AWT-EventQueue-0] Client - ctrl msh is received: ok
+2017-06-20 10:42:51,580 INFO  [AWT-EventQueue-0] Client - Ctrl msg is right
+2017-06-20 10:42:51,580 INFO  [Thread-4] Session - [kirill] is connected
+2017-06-20 10:42:51,596 INFO  [AWT-EventQueue-0] Client - Connected!
+2017-06-20 10:43:11,358 INFO  [AWT-EventQueue-0] Client - Connection...
+2017-06-20 10:43:11,389 INFO  [AWT-EventQueue-0] Client - ctrl msh is received: ok
+2017-06-20 10:43:11,389 INFO  [AWT-EventQueue-0] Client - Ctrl msg is right
+2017-06-20 10:43:11,389 INFO  [AWT-EventQueue-0] Client - Connected!
+2017-06-20 10:43:11,389 INFO  [Thread-6] Session - [polina] is connected
+2017-06-20 10:44:18,004 INFO  [Thread-6] Session - [hello]
+2017-06-20 10:44:21,922 INFO  [Thread-4] Session - [how]
+2017-06-20 11:07:56,930 INFO  [Thread-4] Session - [@exit]
+2017-06-20 11:07:56,930 INFO  [Thread-4] UserList - user [kirill] is deleted from userList
+2017-06-20 11:07:57,820 INFO  [Thread-6] Session - [@exit]
+2017-06-20 11:07:57,820 INFO  [Thread-6] UserList - user [polina] is deleted from userList
+2017-06-20 11:07:59,090 INFO  [AWT-EventQueue-0] Server - Shutting down
+2017-06-20 11:07:59,090 INFO  [AWT-EventQueue-0] host - host is stopped
+2017-06-20 11:07:59,090 INFO  [AWT-EventQueue-0] workerThread - WorkerThread is stopped
+2017-06-20 11:07:59,090 ERROR [Thread-4] workerThread - ошибка ожидания задач на выполнение
+2017-06-20 11:07:59,090 ERROR [Host] host -  Host run(): Socket error{}
+2017-06-20 11:07:59,090 ERROR [Thread-6] workerThread - ошибка ожидания задач на выполнение
+2017-06-20 11:07:59,090 INFO  [AWT-EventQueue-0] workerThread - WorkerThread is stopped
+2017-06-20 11:07:59,090 INFO  [AWT-EventQueue-0] threadPool - TreadPool is stopped
+2017-06-20 11:07:59,090 INFO  [AWT-EventQueue-0] dispatcher - dispatcher is stopped
+2017-06-20 11:07:59,090 INFO  [AWT-EventQueue-0] Server - Good night!
+2017-06-20 11:07:59,090 ERROR [Dispatcher] channel - Ошибка ожидания
+2017-06-20 11:07:59,934 INFO  [AWT-EventQueue-0] Server - Shutting down
+2017-06-20 11:07:59,934 INFO  [AWT-EventQueue-0] threadPool - TreadPool is stopped
+2017-06-20 11:07:59,934 ERROR [AWT-EventQueue-0] Server - error of shutting down
+2017-06-20 11:07:59,934 INFO  [Thread-2] Server - Shutting down
+2017-06-20 11:07:59,934 INFO  [Thread-2] threadPool - TreadPool is stopped
+2017-06-20 11:07:59,934 ERROR [Thread-2] Server - error of shutting down
+2017-06-20 11:57:52,105 INFO  [Host] host - Host is runned on the 4444 port
+2017-06-20 11:57:53,940 INFO  [AWT-EventQueue-0] Server - Shutting down
+2017-06-20 11:57:53,940 INFO  [AWT-EventQueue-0] host - host is stopped
+2017-06-20 11:57:53,940 ERROR [Host] host -  Host run(): Socket error{}
+2017-06-20 11:57:53,940 INFO  [AWT-EventQueue-0] workerThread - WorkerThread is stopped
+2017-06-20 11:57:53,940 ERROR [Thread-4] workerThread - ошибка ожидания задач на выполнение
+2017-06-20 11:57:53,940 INFO  [AWT-EventQueue-0] threadPool - TreadPool is stopped
+2017-06-20 11:57:53,940 INFO  [AWT-EventQueue-0] dispatcher - dispatcher is stopped
+2017-06-20 11:57:53,940 INFO  [AWT-EventQueue-0] Server - Good night!
+2017-06-20 11:57:53,940 ERROR [Dispatcher] channel - Ошибка ожидания
+2017-06-20 11:57:53,940 INFO  [Thread-2] Server - Shutting down
+2017-06-20 11:57:53,940 INFO  [Thread-2] threadPool - TreadPool is stopped
+2017-06-20 11:57:53,940 ERROR [Thread-2] Server - error of shutting down
+2017-06-20 12:12:59,502 INFO  [Host] host - Host is runned on the 4444 port
+2017-06-20 12:14:06,314 INFO  [AWT-EventQueue-0] Server - Shutting down
+2017-06-20 12:14:06,315 INFO  [AWT-EventQueue-0] host - host is stopped
+2017-06-20 12:14:06,315 ERROR [Host] host -  Host run(): Socket error{}
+2017-06-20 12:14:06,315 INFO  [AWT-EventQueue-0] workerThread - WorkerThread is stopped
+2017-06-20 12:14:06,315 INFO  [AWT-EventQueue-0] threadPool - TreadPool is stopped
+2017-06-20 12:14:06,315 INFO  [AWT-EventQueue-0] dispatcher - dispatcher is stopped
+2017-06-20 12:14:06,315 ERROR [Thread-4] workerThread - ошибка ожидания задач на выполнение
+2017-06-20 12:14:06,315 INFO  [AWT-EventQueue-0] Server - Good night!
+2017-06-20 12:14:06,315 ERROR [Dispatcher] channel - Ошибка ожидания
+2017-06-20 12:14:13,162 INFO  [Host] host - Host is runned on the 4444 port
+2017-06-20 12:14:26,193 INFO  [AWT-EventQueue-0] Server - Shutting down
+2017-06-20 12:14:26,193 INFO  [AWT-EventQueue-0] host - host is stopped
+2017-06-20 12:14:26,193 ERROR [Host] host -  Host run(): Socket error{}
+2017-06-20 12:14:26,193 INFO  [AWT-EventQueue-0] workerThread - WorkerThread is stopped
+2017-06-20 12:14:26,194 INFO  [AWT-EventQueue-0] threadPool - TreadPool is stopped
+2017-06-20 12:14:26,194 ERROR [Thread-8] workerThread - ошибка ожидания задач на выполнение
+2017-06-20 12:14:26,194 INFO  [AWT-EventQueue-0] dispatcher - dispatcher is stopped
+2017-06-20 12:14:26,194 INFO  [AWT-EventQueue-0] Server - Good night!
+2017-06-20 12:14:26,194 ERROR [Dispatcher] channel - Ошибка ожидания
+2017-06-20 12:14:26,700 INFO  [AWT-EventQueue-0] Server - Shutting down
+2017-06-20 12:14:26,700 INFO  [AWT-EventQueue-0] threadPool - TreadPool is stopped
+2017-06-20 12:14:26,700 ERROR [AWT-EventQueue-0] Server - error of shutting down
+2017-06-20 12:14:26,701 INFO  [Thread-2] Server - Shutting down
+2017-06-20 12:14:26,701 INFO  [Thread-6] Server - Shutting down
+2017-06-20 12:14:26,702 INFO  [Thread-2] threadPool - TreadPool is stopped
+2017-06-20 12:14:26,702 INFO  [Thread-6] threadPool - TreadPool is stopped
+2017-06-20 12:14:26,702 ERROR [Thread-2] Server - error of shutting down
+2017-06-20 12:14:26,702 ERROR [Thread-6] Server - error of shutting down
+2017-06-20 12:14:36,029 INFO  [Host] host - Host is runned on the 4444 port
+2017-06-20 12:14:38,536 INFO  [AWT-EventQueue-0] Server - Shutting down
+2017-06-20 12:14:38,537 INFO  [AWT-EventQueue-0] host - host is stopped
+2017-06-20 12:14:38,537 ERROR [Host] host -  Host run(): Socket error{}
+2017-06-20 12:14:38,537 INFO  [AWT-EventQueue-0] workerThread - WorkerThread is stopped
+2017-06-20 12:14:38,538 ERROR [Thread-4] workerThread - ошибка ожидания задач на выполнение
+2017-06-20 12:14:38,538 INFO  [AWT-EventQueue-0] threadPool - TreadPool is stopped
+2017-06-20 12:14:38,538 INFO  [AWT-EventQueue-0] dispatcher - dispatcher is stopped
+2017-06-20 12:14:38,538 ERROR [Dispatcher] channel - Ошибка ожидания
+2017-06-20 12:14:38,538 INFO  [AWT-EventQueue-0] Server - Good night!
+2017-06-20 12:14:38,538 INFO  [Thread-2] Server - Shutting down
+2017-06-20 12:14:38,538 INFO  [Thread-2] threadPool - TreadPool is stopped
+2017-06-20 12:14:38,538 ERROR [Thread-2] Server - error of shutting down
+2017-06-20 12:20:44,423 INFO  [Host] host - Host is runned on the 4444 port
+2017-06-20 12:47:38,716 INFO  [AWT-EventQueue-0] Server - Shutting down
+2017-06-20 12:47:38,716 INFO  [AWT-EventQueue-0] host - host is stopped
+2017-06-20 12:47:38,716 ERROR [Host] host -  Host run(): Socket error{}
+2017-06-20 12:47:38,716 INFO  [AWT-EventQueue-0] workerThread - WorkerThread is stopped
+2017-06-20 12:47:38,716 ERROR [Thread-4] workerThread - ошибка ожидания задач на выполнение
+2017-06-20 12:47:38,716 INFO  [AWT-EventQueue-0] threadPool - TreadPool is stopped
+2017-06-20 12:47:38,716 INFO  [AWT-EventQueue-0] dispatcher - dispatcher is stopped
+2017-06-20 12:47:38,716 ERROR [Dispatcher] channel - Ошибка ожидания
+2017-06-20 12:47:38,716 INFO  [AWT-EventQueue-0] Server - Good night!
+2017-06-20 12:47:38,716 INFO  [Thread-2] Server - Shutting down
+2017-06-20 12:47:38,716 INFO  [Thread-2] threadPool - TreadPool is stopped
+2017-06-20 12:47:38,716 ERROR [Thread-2] Server - error of shutting down
